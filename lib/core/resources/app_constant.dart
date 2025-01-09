@@ -347,4 +347,11 @@ abstract final class AppConstant {
     '5',
     '6'
   ];
+  static const List<String> tasbehAr = [
+    'سبحان الله',
+        'الله اكبر',
+        'الحمد لله',
+        'لا اله الا الله',
+        'استغفر الله',
+  ];
 }
