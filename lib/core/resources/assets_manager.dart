@@ -16,6 +16,13 @@ abstract final class AssetImages {
   static const String onboarding3 = '${base}onboarding3.png';
   static const String onboarding4 = '${base}onboarding4.png';
   static const String onboarding5 = '${base}onboarding5.png';
+  static const String tasbehBackground = '${base}tasbeh_background.png';
+  static const String sebhaBody = '${base}SebhaBody 1.png';
+  static const String backgroundRadio = '${base}Background_radio.png';
+  static const String mosque = '${base}Mosque.png';
+  static const String soundWave = '${base}sound_wave.png';
+  static const String backgroundPrayTimeCard = '${base}background_pray_time.png';
+  static const String BackgroundPrayTime = '${base}Background_time.png';
 }
 
 abstract final class SvgAssets {
@@ -32,4 +39,10 @@ abstract final class SvgAssets {
   static const String selectedTasbehIcon = '${base}selected_tasbeh_icon.svg';
   static const String selectedHadithIcon = '${base}selected_hadith_icon.svg';
   static const String quranSearchIcon = '${base}quran_search_icon.svg';
+  static const String pause = '${base}Pause.svg';
+  static const String play = '${base}play.svg';
+  static const String volumeHigh = '${base}Volume High.svg';
+  static const String mute = '${base}mute.svg';
+  static const String mosqueLeftPrayTab = '${base}mosque_left_pray_tab.svg';
+  static const String mosqueRightPrayTab = '${base}mosque_right_pray_tab.svg';
 }

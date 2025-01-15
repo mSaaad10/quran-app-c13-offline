@@ -44,4 +44,8 @@ class AppStyles {
   );
   static const TextStyle blackAcc700 = TextStyle(
       fontWeight: FontWeight.w700, fontSize: 24, color: ColorsManager.blackAcc);
+  static const TextStyle white700 = TextStyle(
+      fontWeight: FontWeight.w700, fontSize: 16, color: ColorsManager.white);
+  static const TextStyle whiteBold32 = TextStyle(
+      fontWeight: FontWeight.bold, fontSize: 32, color: ColorsManager.white);
 }
