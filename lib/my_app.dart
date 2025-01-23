@@ -13,7 +13,7 @@ class IslamiApp extends StatelessWidget {
       darkTheme: AppTheme.dark,
       themeMode: ThemeMode.light,
       routes: RoutesManager.routes,
-      initialRoute: RoutesManager.splash,
+      initialRoute: RoutesManager.onboarding,
     );
   }
 }
