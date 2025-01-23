@@ -23,6 +23,8 @@ abstract final class AssetImages {
   static const String soundWave = '${base}sound_wave.png';
   static const String backgroundPrayTimeCard = '${base}background_pray_time.png';
   static const String BackgroundPrayTime = '${base}Background_time.png';
+  static const String mosqueLeft= '${base}mosque_left.png';
+  static const String mosqueRight= '${base}mosque_right.png';
 }
 
 abstract final class SvgAssets {
@@ -43,6 +45,5 @@ abstract final class SvgAssets {
   static const String play = '${base}play.svg';
   static const String volumeHigh = '${base}Volume High.svg';
   static const String mute = '${base}mute.svg';
-  static const String mosqueLeftPrayTab = '${base}mosque_left_pray_tab.svg';
-  static const String mosqueRightPrayTab = '${base}mosque_right_pray_tab.svg';
+  static const String mosqueLeftPrayab = '${base}mosque_left_pray_tab.svg';
 }

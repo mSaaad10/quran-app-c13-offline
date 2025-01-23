@@ -175,9 +175,9 @@ class _PrayTimesTabState extends State<PrayTimesTab> {
                 ),
                 Row(
                   children: [
-                    azkarCard(azkarImage: SvgAssets.mosqueLeftPrayTab, azkarTime: 'Evening Azkar'),
+                    azkarCard(azkarImage: AssetImages.mosqueLeft, azkarTime: 'Evening Azkar'),
                     const SizedBox(width: 15,),
-                    azkarCard(azkarImage: SvgAssets.mosqueRightPrayTab,azkarTime: 'Morning Azkar'),
+                   azkarCard(azkarImage: AssetImages.mosqueRight,azkarTime: 'Morning Azkar'),
                   ],
                 )
 
@@ -203,7 +203,7 @@ class _PrayTimesTabState extends State<PrayTimesTab> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            SvgPicture.asset(azkarImage ??'',height: 158, ),
+            Image.asset(azkarImage ??'',height: 158, ),
 
             Text(
               azkarTime ??'',
